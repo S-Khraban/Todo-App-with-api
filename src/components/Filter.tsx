@@ -28,7 +28,6 @@ export const Filter: React.FC<Props> = ({ value, onChange }) => {
 
   return (
     <nav className="filter" data-cy="Filter">
-      +{' '}
       {Object.values(FilterStatus).map(status => (
         <a
           key={status}
